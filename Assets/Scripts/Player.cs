@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
             animator.speed = 0.4f;
         }
             
-        transform.rotation=Quaternion.Euler(0,0,Input.GetAxis("Vertical")*20);//cambia el angulo del personaje
+        //transform.rotation=Quaternion.Euler(0,0,Input.GetAxis("Vertical")*20);//EL personaje se inclina al moverse
         transform.position= new Vector3(Mathf.Clamp(transform.position.x,-rangeX,rangeX),Mathf.Clamp(transform.position.y,-rangeY,rangeY),0);//limita el movimiento del personaje
     
         if(barraDistancia.fillAmount<1){
