@@ -1,0 +1,3356 @@
+fileFormatVersion: 2
+guid: d3cb6ea94cdb3f848b1dd1dc7bc6086e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd95e90f750a28d4e9787d8a9f5b9fdc
+      internalID: 2055317521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09babd31e19864439b0e48e70a7c4ba
+      internalID: -589895432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1152
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b657a0c56925f8945916e64a734f48ea
+      internalID: 203207751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae25d979546cd343a2b5d2bb838953c
+      internalID: 778876024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435362dfd2f9b914d9dc74ca0598c0dd
+      internalID: -529785960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce1b7c8afa3f9445adbf353d1529616
+      internalID: 3079217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1104
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecef7a933567738428d1f069c4453d45
+      internalID: -647381685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aa33c2d8a97e34e8c399213bc89d49
+      internalID: 649958839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99dae2b207fa1e4ea968c8dc63a1d53
+      internalID: -234922050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547635a1e37e0b648879b8159e86fa36
+      internalID: 1733208214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1056
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a236e4028e7ea341b4755631c4217be
+      internalID: 639170067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36fd0e3ecba1f54b82ff7c4e600cc43
+      internalID: 624546803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3c27eb5fb7af042aefcb1e1d7962fc
+      internalID: -2095098087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3188fb746764ab94b970b716d4c0c19a
+      internalID: 877054291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_14
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1008
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8197fe5727f844289fe39d2efc1282
+      internalID: 1400986638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69173a8b6eb7a0d4b80adca113374f03
+      internalID: 1364521158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d7a4e5d67402141b9d541c446d4be6
+      internalID: 199588302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 960
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c60e74720234943a0b83ef95e52e71
+      internalID: -335321607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd036b094c7656459341328306acb94
+      internalID: 1146502919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 720
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b5351e697e5fa489a32b6658692eb5
+      internalID: 1196471724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_20
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39e04e8e5607874888945f4bdf04093
+      internalID: 1833210710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe0d12557baa92488b2133b3d4b7a79
+      internalID: 1875533765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_22
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5be72496275584487d0b5289ccd8a7
+      internalID: 1640023945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_23
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0adef2490210514abe41c02d0655f7a
+      internalID: 1305983765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_24
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d5804aec1834a4893d81c198e726dd
+      internalID: 890913646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_25
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04faeda47c213f94f8cfbf16f7a78b18
+      internalID: 1580754875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_26
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5235beecfda2f354d92da27adc7304bb
+      internalID: -983561550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_27
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897f8a9af0ab4db46942d1df9f1d391f
+      internalID: 1168381632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_28
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ed3ceea5d575546a455d2b62f4cfc5
+      internalID: 742554814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_29
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb6ce18cde56894194ec0ae06078367
+      internalID: -1042209835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_30
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e56cb34de579b94fadc955859dbf2fe
+      internalID: 1724981570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_31
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e854e587e28a64641a17a01f8f6df1d2
+      internalID: -986251587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_32
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6260bf11985c6664882e3dd7716b24e8
+      internalID: 1378256640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_33
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd98782dc17da5946a09ff1d41d99cee
+      internalID: 204545994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_34
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697f96d04113f154fa49c6d152da1c55
+      internalID: 214519148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697d099ca7837e4459292f6814767bc5
+      internalID: 644201676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_36
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5498701bf793cc14d92f5f97d021bbe0
+      internalID: 173139250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_37
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e6823aa85fc5446bfc137a3cf07097
+      internalID: 1674982674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_38
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fa9c024b367d5478c67e4d06ea6c24
+      internalID: -1785544432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_39
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1fdc0a66db2f348af80f923e5b8f9c
+      internalID: 1318140315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_40
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c0adb7274a3444e996c9703d66c9fe
+      internalID: -205880165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_41
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b394f9602b553334a8fa575da69475fd
+      internalID: -1764376595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_42
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd017fb2b7ae504fafd7daa66551421
+      internalID: 2126093074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_43
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66486cf95a5395d479fe1cddc1eaa0a1
+      internalID: 537546788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_44
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e05ad5a234bc5e4897b08d1fa247da6
+      internalID: 35668811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_45
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3fbeaede1a026418c865e792d7d4d1
+      internalID: -1799641634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_46
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84b49610bd6b024389d361b9eeefafa
+      internalID: -210604900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_47
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 624
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b96ddbfe2104c1428451793e5272478
+      internalID: 1960324702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5682cd14e8e59994783dce53dc531f14
+      internalID: -2020669991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c9ba306ccd4f943a789bf72cd63bcd
+      internalID: -1928069728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_50
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160a9f60e4c300548abaef7a57f79804
+      internalID: 711661270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451fd7e1b2cd47f489d4657aa0e33f7c
+      internalID: 955464181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_52
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff87d06073837f45af7e999f37bb072
+      internalID: 1076261704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_53
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a074949d80ff79848910674b02e27aa3
+      internalID: -299371790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_54
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc253c29c64614e4192bc22ddea5593e
+      internalID: 1816535475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_55
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c562700d29e6dc4d9e44f100859fd2f
+      internalID: 1793126840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_56
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d61e0d0d0aac14ba9e566c225c2fbc
+      internalID: 623120503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_57
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cd71c7899e4e744b7966fc301c740a
+      internalID: -724723943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_58
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06acf7b967294b4d8814a322000d3b3
+      internalID: -1248553375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_59
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04838caf6d96865498eda291a4bb2252
+      internalID: -1007958815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_60
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4591c0cc61abc8498765976150b09b3
+      internalID: -1333155725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_61
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 576
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0334874d40f08c4ea349e1242046544
+      internalID: 933915385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_62
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fa07be82027c64abf2d57c8b879fa4
+      internalID: 588819947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_63
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1679d154fd876734bbc808d78a286bb1
+      internalID: 907018709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_64
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dd2b5cfb9d85a4882f8702877c6c0f
+      internalID: 1897669529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_65
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715f9b53c7b03b243830eef29e368d37
+      internalID: 974359841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_66
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5eaf6a248b70e41a7ee05ac7ee7c2e
+      internalID: -43848513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_67
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 528
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffaff94605fd10428e8c326af6bf29f
+      internalID: -298537093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c0382f699ea404ca38df28ebbb7903
+      internalID: -1544134468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_69
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab9fdeba2745b540b4ca541bce4479a
+      internalID: 897625033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f3b6fa8c3862c4eb7e0980de02ddc4
+      internalID: 1440718416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_71
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e48ef1a33a9a404baaa6d7a5440999d
+      internalID: -15754411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009e7defb818b82428b4f26dd0db5a34
+      internalID: -914613980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_73
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a6d27823bbabb4c80b457cd99b5542
+      internalID: -1094704562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_74
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 480
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab0fd0a6a3959444b2c945ec3d6b07c
+      internalID: 1667319491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804bf8079046ebf4e984f292ca3edc65
+      internalID: 973406587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba812f28ba0af6a458dcb68ac222c346
+      internalID: -1498477103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9a0b0af87e03c4e81e9fbef3ae538c
+      internalID: 999477644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38512dd46793d5245903bf234a999185
+      internalID: -853607476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_79
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103cf0d96edd6c548b1ac11a8843b279
+      internalID: -667114141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_80
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06034a6acb8e824fbb577886faa262c
+      internalID: 314698589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_81
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 432
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e0ede5b1a23b84294312f84ab97f72
+      internalID: -1647644002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd345b786778084080a1691dea25724
+      internalID: 1785584681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bf2b133487fd74d9f054d68a738cea
+      internalID: 595527739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e9632c6b097ef48900602a8afda1ef
+      internalID: -323054097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_85
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 384
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9575606cd3eb7478d3a4232aeb27e1
+      internalID: 1216443919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b980238dd18e3694db05aaa04bcbb5eb
+      internalID: -326760305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8174a213d6f542e439de9f3cf4d4c23e
+      internalID: -1574672363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a818d6a7b592a74da179eccaad8b063
+      internalID: 903563671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_89
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5e676fa2c06a548b49f2a944640cba
+      internalID: -412415001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030514bd48811ed448b7cdde55723723
+      internalID: 643078453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_91
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a043e35447c3044f889d84e89d4cacd
+      internalID: -1546430003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_92
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05212bb5cc21624babd34ca723a17c2
+      internalID: -921290548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9728934ddec35b0439d8ca2cf625edfd
+      internalID: -329039344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b431eb4a6c4db4288e5ce3db08edc0
+      internalID: -1739462035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_95
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12736ee883c327146a1cdb73d67509ee
+      internalID: 1127744294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_96
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e378bb5106232d4bb88159ad35c92f2
+      internalID: 158363039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_97
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daf6bf290003e2418944ea852eb7e9d
+      internalID: -405158656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_98
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae2aa80fbb893d40ac8876eba2255a8
+      internalID: -1714577531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_99
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a9a824878e9ba409b1f46880688373
+      internalID: -796212552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_100
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483b8ca27daffb543a7248d1435852be
+      internalID: -1295132192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_101
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0308b69b6d11e8a4ca9533a8edcacac8
+      internalID: 793771268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_102
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f603a9ae9dcd2245932996c85ef164d
+      internalID: 274743020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_103
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72109e29840949e42814ecdcf8b536de
+      internalID: 463479710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_104
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d09c4c636f84d4f98364ccf086e1e2
+      internalID: -79424392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_105
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dea35989d352e348bd4ee2a40551927
+      internalID: -2132687596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_106
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e884b4662bf01f408a17222b6a48f58
+      internalID: -821176798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_107
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fd4f170bc8a0a449942a0d9ce145a9
+      internalID: 1557046237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_108
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 192
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ba5d9477b116c4c92106a070a411b0
+      internalID: -524415188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a860d2d0d933c5e4dab5f23bfd01bc2e
+      internalID: 1332151033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_110
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1511f36905f4cce479091036c2629a24
+      internalID: 1670655818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4cb8c4f95ddc04ea7b2facf0b6165e
+      internalID: -1784963839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_112
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e725253b2206242a009cd9cfded4ce
+      internalID: 209068534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb2b45c86ad2f4b9352b28e163d56d
+      internalID: -1268670047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_114
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7203adab666053d4784fafb2a6657fb1
+      internalID: 1237312268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_115
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83bb1042d28a15142910d8d94535361a
+      internalID: -1347962413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_116
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34f678e396f8a24eba625751daf707d
+      internalID: -19262889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_117
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deaa82f6fee045c40b6e815530998bdd
+      internalID: 430209285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_118
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61af198f57e36647b4dc622e418baf0
+      internalID: -966215554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_119
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8059250be9d98c4d9697e62198b453b
+      internalID: 2030269312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_120
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2e070f1422b554784c885182142866
+      internalID: -1392726482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_121
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f40aed3676661459848fd8704c47df
+      internalID: -403010166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_122
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3035c367868e741b6ea2aa3774c52f
+      internalID: 1053770230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_123
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab0d4910fafd774e90642b4e35b2ca3
+      internalID: -1235597328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_124
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d2baa4e5acc1c4bac1b9163ec717ce
+      internalID: 1597895728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_125
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c73509e7bde1d47879d37e74820185
+      internalID: -865791047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_126
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4788bc17f75da574fa86c6c5c012b0ef
+      internalID: -188904644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_127
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 144
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f63d4e11f3faf646835887c67f59e91
+      internalID: 81278526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4506c746115951449ae6456a352a20f
+      internalID: -608362198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_129
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484bae38c5bfd564dad79daf4e3662d0
+      internalID: 224577605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b44a94f086a00e4da82afeb0c927a76
+      internalID: -1914796487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_131
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6759887aae3174193fec72dbf2c2dd
+      internalID: 1255186969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_132
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce507bff3093ab54ab7e575e8552d93c
+      internalID: -282693139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_133
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18459434d7abd24478c79b103dd1881d
+      internalID: 1708957080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_134
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ce292c96dd1dd4f8d976eaa66731ac
+      internalID: -822905360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_135
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b39e03f51b4cb4b937194376d924d9
+      internalID: -319797853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_136
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c67bb1254a37647b99205c6c77b930
+      internalID: 131808584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_137
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab4815221579c244812d1657a2ecd03
+      internalID: -933956798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_138
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fe95bac91a1ba4bb9c71cf997315f9
+      internalID: 1151254866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_139
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bae8bd3d439e0d43b0723f63eac272c
+      internalID: 1966229709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_140
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3601ca6fab8efa478887b563ae6615e
+      internalID: -2116712250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_141
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a8ec557ac870a459056b4b68bf7b9e
+      internalID: -541089213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_142
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0783fc14dad907d42b82988a2db69606
+      internalID: -544916579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_143
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a8f2e71d17e6c4a8113476d4573f72
+      internalID: 888903815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_144
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4c5740921fde74a86f2a1910b2d57f
+      internalID: -1300183235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_145
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2fdef4b8176a34f94bc70e1189cd39
+      internalID: -1651052650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_RTU_3_layer_2_48x48_146
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 96
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077c1c1799fdf9444b607f41c963676c
+      internalID: 1608358321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Modern_Exteriors_RTU_3_layer_2_48x48_10: 639170067
+      Modern_Exteriors_RTU_3_layer_2_48x48_4: -529785960
+      Modern_Exteriors_RTU_3_layer_2_48x48_133: 1708957080
+      Modern_Exteriors_RTU_3_layer_2_48x48_79: -667114141
+      Modern_Exteriors_RTU_3_layer_2_48x48_110: 1670655818
+      Modern_Exteriors_RTU_3_layer_2_48x48_104: -79424392
+      Modern_Exteriors_RTU_3_layer_2_48x48_64: 1897669529
+      Modern_Exteriors_RTU_3_layer_2_48x48_139: 1966229709
+      Modern_Exteriors_RTU_3_layer_2_48x48_92: -921290548
+      Modern_Exteriors_RTU_3_layer_2_48x48_56: 623120503
+      Modern_Exteriors_RTU_3_layer_2_48x48_129: 224577605
+      Modern_Exteriors_RTU_3_layer_2_48x48_119: 2030269312
+      Modern_Exteriors_RTU_3_layer_2_48x48_14: 1400986638
+      Modern_Exteriors_RTU_3_layer_2_48x48_80: 314698589
+      Modern_Exteriors_RTU_3_layer_2_48x48_71: -15754411
+      Modern_Exteriors_RTU_3_layer_2_48x48_43: 537546788
+      Modern_Exteriors_RTU_3_layer_2_48x48_66: -43848513
+      Modern_Exteriors_RTU_3_layer_2_48x48_87: -1574672363
+      Modern_Exteriors_RTU_3_layer_2_48x48_38: -1785544432
+      Modern_Exteriors_RTU_3_layer_2_48x48_51: 955464181
+      Modern_Exteriors_RTU_3_layer_2_48x48_7: 649958839
+      Modern_Exteriors_RTU_3_layer_2_48x48_12: -2095098087
+      Modern_Exteriors_RTU_3_layer_2_48x48_15: 1364521158
+      Modern_Exteriors_RTU_3_layer_2_48x48_44: 35668811
+      Modern_Exteriors_RTU_3_layer_2_48x48_106: -821176798
+      Modern_Exteriors_RTU_3_layer_2_48x48_63: 907018709
+      Modern_Exteriors_RTU_3_layer_2_48x48_94: -1739462035
+      Modern_Exteriors_RTU_3_layer_2_48x48_93: -329039344
+      Modern_Exteriors_RTU_3_layer_2_48x48_76: -1498477103
+      Modern_Exteriors_RTU_3_layer_2_48x48_137: -933956798
+      Modern_Exteriors_RTU_3_layer_2_48x48_121: -403010166
+      Modern_Exteriors_RTU_3_layer_2_48x48_123: -1235597328
+      Modern_Exteriors_RTU_3_layer_2_48x48_144: -1300183235
+      Modern_Exteriors_RTU_3_layer_2_48x48_41: -1764376595
+      Modern_Exteriors_RTU_3_layer_2_48x48_6: -647381685
+      Modern_Exteriors_RTU_3_layer_2_48x48_20: 1833210710
+      Modern_Exteriors_RTU_3_layer_2_48x48_73: -1094704562
+      Modern_Exteriors_RTU_3_layer_2_48x48_27: 1168381632
+      Modern_Exteriors_RTU_3_layer_2_48x48_33: 204545994
+      Modern_Exteriors_RTU_3_layer_2_48x48_47: 1960324702
+      Modern_Exteriors_RTU_3_layer_2_48x48_109: 1332151033
+      Modern_Exteriors_RTU_3_layer_2_48x48_0: 2055317521
+      Modern_Exteriors_RTU_3_layer_2_48x48_125: -865791047
+      Modern_Exteriors_RTU_3_layer_2_48x48_108: -524415188
+      Modern_Exteriors_RTU_3_layer_2_48x48_39: 1318140315
+      Modern_Exteriors_RTU_3_layer_2_48x48_22: 1640023945
+      Modern_Exteriors_RTU_3_layer_2_48x48_48: -2020669991
+      Modern_Exteriors_RTU_3_layer_2_48x48_115: -1347962413
+      Modern_Exteriors_RTU_3_layer_2_48x48_146: 1608358321
+      Modern_Exteriors_RTU_3_layer_2_48x48_31: -986251587
+      Modern_Exteriors_RTU_3_layer_2_48x48_55: 1793126840
+      Modern_Exteriors_RTU_3_layer_2_48x48_86: -326760305
+      Modern_Exteriors_RTU_3_layer_2_48x48_70: 1440718416
+      Modern_Exteriors_RTU_3_layer_2_48x48_57: -724723943
+      Modern_Exteriors_RTU_3_layer_2_48x48_18: 1146502919
+      Modern_Exteriors_RTU_3_layer_2_48x48_21: 1875533765
+      Modern_Exteriors_RTU_3_layer_2_48x48_2: 203207751
+      Modern_Exteriors_RTU_3_layer_2_48x48_58: -1248553375
+      Modern_Exteriors_RTU_3_layer_2_48x48_111: -1784963839
+      Modern_Exteriors_RTU_3_layer_2_48x48_114: 1237312268
+      Modern_Exteriors_RTU_3_layer_2_48x48_135: -319797853
+      Modern_Exteriors_RTU_3_layer_2_48x48_74: 1667319491
+      Modern_Exteriors_RTU_3_layer_2_48x48_95: 1127744294
+      Modern_Exteriors_RTU_3_layer_2_48x48_9: 1733208214
+      Modern_Exteriors_RTU_3_layer_2_48x48_1: -589895432
+      Modern_Exteriors_RTU_3_layer_2_48x48_54: 1816535475
+      Modern_Exteriors_RTU_3_layer_2_48x48_52: 1076261704
+      Modern_Exteriors_RTU_3_layer_2_48x48_82: 1785584681
+      Modern_Exteriors_RTU_3_layer_2_48x48_107: 1557046237
+      Modern_Exteriors_RTU_3_layer_2_48x48_49: -1928069728
+      Modern_Exteriors_RTU_3_layer_2_48x48_131: 1255186969
+      Modern_Exteriors_RTU_3_layer_2_48x48_62: 588819947
+      Modern_Exteriors_RTU_3_layer_2_48x48_98: -1714577531
+      Modern_Exteriors_RTU_3_layer_2_48x48_75: 973406587
+      Modern_Exteriors_RTU_3_layer_2_48x48_68: -1544134468
+      Modern_Exteriors_RTU_3_layer_2_48x48_28: 742554814
+      Modern_Exteriors_RTU_3_layer_2_48x48_69: 897625033
+      Modern_Exteriors_RTU_3_layer_2_48x48_19: 1196471724
+      Modern_Exteriors_RTU_3_layer_2_48x48_50: 711661270
+      Modern_Exteriors_RTU_3_layer_2_48x48_36: 173139250
+      Modern_Exteriors_RTU_3_layer_2_48x48_46: -210604900
+      Modern_Exteriors_RTU_3_layer_2_48x48_113: -1268670047
+      Modern_Exteriors_RTU_3_layer_2_48x48_29: -1042209835
+      Modern_Exteriors_RTU_3_layer_2_48x48_96: 158363039
+      Modern_Exteriors_RTU_3_layer_2_48x48_83: 595527739
+      Modern_Exteriors_RTU_3_layer_2_48x48_90: 643078453
+      Modern_Exteriors_RTU_3_layer_2_48x48_61: 933915385
+      Modern_Exteriors_RTU_3_layer_2_48x48_16: 199588302
+      Modern_Exteriors_RTU_3_layer_2_48x48_59: -1007958815
+      Modern_Exteriors_RTU_3_layer_2_48x48_77: 999477644
+      Modern_Exteriors_RTU_3_layer_2_48x48_141: -541089213
+      Modern_Exteriors_RTU_3_layer_2_48x48_65: 974359841
+      Modern_Exteriors_RTU_3_layer_2_48x48_138: 1151254866
+      Modern_Exteriors_RTU_3_layer_2_48x48_136: 131808584
+      Modern_Exteriors_RTU_3_layer_2_48x48_97: -405158656
+      Modern_Exteriors_RTU_3_layer_2_48x48_30: 1724981570
+      Modern_Exteriors_RTU_3_layer_2_48x48_101: 793771268
+      Modern_Exteriors_RTU_3_layer_2_48x48_100: -1295132192
+      Modern_Exteriors_RTU_3_layer_2_48x48_11: 624546803
+      Modern_Exteriors_RTU_3_layer_2_48x48_89: -412415001
+      Modern_Exteriors_RTU_3_layer_2_48x48_84: -323054097
+      Modern_Exteriors_RTU_3_layer_2_48x48_140: -2116712250
+      Modern_Exteriors_RTU_3_layer_2_48x48_105: -2132687596
+      Modern_Exteriors_RTU_3_layer_2_48x48_40: -205880165
+      Modern_Exteriors_RTU_3_layer_2_48x48_127: 81278526
+      Modern_Exteriors_RTU_3_layer_2_48x48_112: 209068534
+      Modern_Exteriors_RTU_3_layer_2_48x48_8: -234922050
+      Modern_Exteriors_RTU_3_layer_2_48x48_53: -299371790
+      Modern_Exteriors_RTU_3_layer_2_48x48_3: 778876024
+      Modern_Exteriors_RTU_3_layer_2_48x48_34: 214519148
+      Modern_Exteriors_RTU_3_layer_2_48x48_32: 1378256640
+      Modern_Exteriors_RTU_3_layer_2_48x48_122: 1053770230
+      Modern_Exteriors_RTU_3_layer_2_48x48_37: 1674982674
+      Modern_Exteriors_RTU_3_layer_2_48x48_117: 430209285
+      Modern_Exteriors_RTU_3_layer_2_48x48_132: -282693139
+      Modern_Exteriors_RTU_3_layer_2_48x48_85: 1216443919
+      Modern_Exteriors_RTU_3_layer_2_48x48_124: 1597895728
+      Modern_Exteriors_RTU_3_layer_2_48x48_130: -1914796487
+      Modern_Exteriors_RTU_3_layer_2_48x48_145: -1651052650
+      Modern_Exteriors_RTU_3_layer_2_48x48_60: -1333155725
+      Modern_Exteriors_RTU_3_layer_2_48x48_78: -853607476
+      Modern_Exteriors_RTU_3_layer_2_48x48_25: 1580754875
+      Modern_Exteriors_RTU_3_layer_2_48x48_67: -298537093
+      Modern_Exteriors_RTU_3_layer_2_48x48_81: -1647644002
+      Modern_Exteriors_RTU_3_layer_2_48x48_17: -335321607
+      Modern_Exteriors_RTU_3_layer_2_48x48_126: -188904644
+      Modern_Exteriors_RTU_3_layer_2_48x48_13: 877054291
+      Modern_Exteriors_RTU_3_layer_2_48x48_24: 890913646
+      Modern_Exteriors_RTU_3_layer_2_48x48_103: 463479710
+      Modern_Exteriors_RTU_3_layer_2_48x48_23: 1305983765
+      Modern_Exteriors_RTU_3_layer_2_48x48_128: -608362198
+      Modern_Exteriors_RTU_3_layer_2_48x48_88: 903563671
+      Modern_Exteriors_RTU_3_layer_2_48x48_45: -1799641634
+      Modern_Exteriors_RTU_3_layer_2_48x48_116: -19262889
+      Modern_Exteriors_RTU_3_layer_2_48x48_118: -966215554
+      Modern_Exteriors_RTU_3_layer_2_48x48_72: -914613980
+      Modern_Exteriors_RTU_3_layer_2_48x48_42: 2126093074
+      Modern_Exteriors_RTU_3_layer_2_48x48_5: 3079217
+      Modern_Exteriors_RTU_3_layer_2_48x48_142: -544916579
+      Modern_Exteriors_RTU_3_layer_2_48x48_134: -822905360
+      Modern_Exteriors_RTU_3_layer_2_48x48_143: 888903815
+      Modern_Exteriors_RTU_3_layer_2_48x48_120: -1392726482
+      Modern_Exteriors_RTU_3_layer_2_48x48_91: -1546430003
+      Modern_Exteriors_RTU_3_layer_2_48x48_26: -983561550
+      Modern_Exteriors_RTU_3_layer_2_48x48_35: 644201676
+      Modern_Exteriors_RTU_3_layer_2_48x48_102: 274743020
+      Modern_Exteriors_RTU_3_layer_2_48x48_99: -796212552
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
