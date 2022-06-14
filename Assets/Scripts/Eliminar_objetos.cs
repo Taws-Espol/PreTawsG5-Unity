@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Eliminar_objetos : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log("choca");
         if (other.GetComponent<Barrera>() != null)
