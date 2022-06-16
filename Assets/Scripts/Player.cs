@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
             invinsible = true;
             Debug.Log("Obstacle hit");
             sprite.color = Color.red;
-            transform.Translate(Vector3.left * Time.deltaTime, Camera.main.transform);
+            transform.position+=Vector3.left*2;
             life--;
             checkLife();
             Invoke("NormalState",0.5f);
