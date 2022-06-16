@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/Sprites/Exterior.meta
 guid: 0228ce9c0a9581f45b5f1f8b98c0aa0b
+========
+guid: 8a40a3c6ca9a5144ba597527666c874c
+>>>>>>>> fd3021b6fd36f6a651f38d8e7a847c76406451f0:Assets/Cainos.meta
+=======
+<<<<<<<< HEAD:Assets/Tiles Palette.meta
+guid: afeda31f3082e1342a46c049e788e42e
+========
+guid: 47694a5604e2d034986c3cddbf117ced
+>>>>>>>> fd3021b6fd36f6a651f38d8e7a847c76406451f0:Assets/Sprites/Exterior.meta
+>>>>>>> fd3021b6fd36f6a651f38d8e7a847c76406451f0
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
