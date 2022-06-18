@@ -7,8 +7,10 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 10f;
-    public float rangeY=3f;
-    public float rangeX=7f;
+    private float limArriba = 3.6f;
+    private float limAbajo = -3.4f;
+    private float limIzquierda = -8f;
+    private float limDerecha = 7f;
     private Vector3 Movimiento;
     private Animator animator;
     public GameObject Polvo;
@@ -37,21 +39,21 @@ public class Player : MonoBehaviour
         Movimiento=new Vector3(Input.GetAxisRaw("Horizontal"),Input.GetAxisRaw("Vertical"),0);
         Movimiento=Movimiento.normalized;
         transform.position+=Movimiento*moveSpeed*Time.deltaTime;
-        
-        if(Input.GetKey("left")){
+
+        animator.speed = 0.4f;
+
+        if (Input.GetKey("left")){
             animator.speed = 0.1f;//Al retroceder se mueve mas lento
         } 
             
         if(Input.GetKey("right")){
             animator.speed = 1.0f;//Al avanzar se mueve mas rapido
-        } 
-
-        if(Input.GetKey("right")==false && Input.GetKey("left")==false){
-            animator.speed = 0.4f;
         }
-            
+
         //transform.rotation=Quaternion.Euler(0,0,Input.GetAxis("Vertical")*20);//EL personaje se inclina al moverse
-        transform.position= new Vector3(Mathf.Clamp(transform.position.x,-rangeX,rangeX),Mathf.Clamp(transform.position.y,-rangeY,rangeY),0);//limita el movimiento del personaje
+        float posX = Mathf.Clamp(transform.position.x, limIzquierda, limDerecha);
+        float posY = Mathf.Clamp(transform.position.y, limAbajo, limArriba);
+        transform.position= new Vector3(posX, posY, 0);//limita el movimiento del personaje
     
         if(barraDistancia.fillAmount<1){
             barraDistancia.fillAmount+=Time.deltaTime/barraTiempo;
