@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3122394774747192131}
   - component: {fileID: 10988013863238619}
-  - component: {fileID: 1452375869142791617}
-  m_Layer: 3
+  - component: {fileID: 2560222424836048673}
+  m_Layer: 0
   m_Name: Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1452375869142791617
+--- !u!114 &2560222424836048673
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -94,9 +94,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 7154183100861051085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d3dee77ef37282469e6cc6be312388d, type: 3}
+  m_Script: {fileID: 11500000, guid: c661f9d70a41d1b4797c8f126bf1a4d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidad: 2
-  numero_de_sprites: 3
-  ubicar_orden_sprite: 0
+  velocidad: 3
+  numeroSprites: 3
+  ordenSprite: 0

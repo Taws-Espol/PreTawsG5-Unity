@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Calle
+  - Obstacle
+  - Ray
   layers:
   - Default
   - TransparentFX
@@ -41,10 +44,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Layer 1
+  - name: Background
     uniqueID: 2425651459
     locked: 0
-  - name: Layer 2
+  - name: Objetos
     uniqueID: 4250941897
     locked: 0
   - name: Layer 3
