@@ -8,6 +8,7 @@ public class AddObstacles : MonoBehaviour
     public GameObject[] obstaculos;
     public float tiempoCreacion = 2f;
     private float[] posiciones;
+    private float posX = 12f;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,14 +34,14 @@ public class AddObstacles : MonoBehaviour
 
     private void Creando()
     {
-        InvokeRepeating("CrearAleatorio", 0.0f, tiempoCreacion);
+        InvokeRepeating("CrearAleatorio", tiempoCreacion, tiempoCreacion);
     }
 
     private void CrearAleatorio()
     {
         int idx = Random.Range(0, 3);
         int idxObjeto = Random.Range(0, 2);
-        Vector3 spawnPosition = new Vector3(20, posiciones[idx], 0);
+        Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
         GameObject obstaculo = Instantiate(obstaculos[idxObjeto], spawnPosition, Quaternion.identity);
     }
 
@@ -75,21 +76,21 @@ public class AddObstacles : MonoBehaviour
     private void MuroArriba ()
     {
         int idxTmp = Random.Range(0, 2);
-        GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(20, posiciones[0], 0), Quaternion.identity);
-        GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(20, posiciones[1], 0), Quaternion.identity);
+        GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[0], 0), Quaternion.identity);
+        GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[1], 0), Quaternion.identity);
     }
 
     private void MuroAbajo()
     {
         int idxTmp = Random.Range(0, 2);
-        GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(20, posiciones[1], 0), Quaternion.identity);
-        GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(20, posiciones[2], 0), Quaternion.identity);
+        GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[1], 0), Quaternion.identity);
+        GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[2], 0), Quaternion.identity);
     }
 
     private void MuroExtremo()
     {
         int idxTmp = Random.Range(0, 2);
-        GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(20, posiciones[0], 0), Quaternion.identity);
-        GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(20, posiciones[2], 0), Quaternion.identity);
+        GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[0], 0), Quaternion.identity);
+        GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[2], 0), Quaternion.identity);
     }
 }

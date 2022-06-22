@@ -19,7 +19,7 @@ public class LogicaObjetos : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        if (transform.position.x < 0)
+        if (transform.position.x < -8)
         {
             Destroy(gameObject);
         }
