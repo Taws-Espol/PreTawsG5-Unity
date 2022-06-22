@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Calle
   - Obstacle
   - Ray
+  - Calle
+  - Coin
   layers:
   - Default
   - TransparentFX
@@ -14,6 +15,9 @@ TagManager:
   - 
   - Water
   - UI
+  - Background
+  - Objetos
+  - Collision
   - 
   - 
   - 
@@ -28,9 +32,6 @@ TagManager:
   - 
   - 
   - 
-  - Layer 1
-  - Layer 2
-  - Layer 3
   - 
   - 
   - 
