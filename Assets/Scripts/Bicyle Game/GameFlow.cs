@@ -10,7 +10,7 @@ public class GameFlow : MonoBehaviour
     private bool gameRunning;
     public Image barraProgreso;
     private float progresoActual = 0;
-    private float segundosTotales = 10;
+    private float segundosTotales = 62;
 
     private float velocidadActual;
 
@@ -50,7 +50,10 @@ public class GameFlow : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         
-        progresoActual += Time.deltaTime / segundosTotales;
+    }
+    private void FixedUpdate()
+    {
+        progresoActual += Time.fixedDeltaTime/ segundosTotales;
         barraProgreso.fillAmount = progresoActual;
     }
 }
