@@ -5,7 +5,7 @@ using UnityEngine;
 public class AddObstacles : MonoBehaviour
 {
 
-    public GameObject[] obstaculos;
+    public GameObject[] obstaculos; //[carro1 (lento), carro2 (medio), carro3(cambia de posicion),  bache]
     public float tiempoCreacion = 2f;
     private float[] posiciones;
     private float posX = 12f;
@@ -18,7 +18,7 @@ public class AddObstacles : MonoBehaviour
         posiciones[2] = -2.6f;
         Invoke("Creando", 0.0f);
         Invoke("Cancelar", 15f);
-        Invoke("Patron1", 16f);
+        Invoke("Patron2", 16f);
     }
 
     // Update is called once per frame
@@ -40,9 +40,23 @@ public class AddObstacles : MonoBehaviour
     private void CrearAleatorio()
     {
         int idx = Random.Range(0, 3);
-        int idxObjeto = Random.Range(0, 2);
+        int idxObjeto = Random.Range(0, 1);
         Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
         GameObject obstaculo = Instantiate(obstaculos[idxObjeto], spawnPosition, Quaternion.identity);
+    }
+
+        private void CrearBache()
+    {
+        int idx = Random.Range(0, 3);
+        Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
+        GameObject obstaculo = Instantiate(obstaculos[3], spawnPosition, Quaternion.identity);
+    }
+        private void CrearAutoCambiente()
+    {
+       int idx = Random.Range(0, 3);
+        Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
+        GameObject obstaculo = Instantiate(obstaculos[2], spawnPosition, Quaternion.identity);
+    
     }
 
     private void Patron1()
@@ -55,20 +69,45 @@ public class AddObstacles : MonoBehaviour
         Invoke("MuroAbajo", 12.5f);
         Invoke("MuroExtremo", 15f);
         InvokeRepeating("CrearAleatorio", 20f, tiempoCreacion);
-        //Cancelar
+        Invoke("Cancelar", 22f);
+        Invoke("Patron2", 23f);
         //Patron 2
     }
 
     private void Patron2 ()
     {
-        //Función
+        Invoke("CrearBache", 0f);
+        Invoke("MuroExtremo", 1f);
+        Invoke("CrearAleatorio",2.5f);
+        Invoke("MuroAbajo", 5f);
+        Invoke("MuroExtremo", 7.5f);
+        Invoke("CrearAutoCambiente",9f);
+        Invoke("CrearBache", 12f);
+        Invoke("MuroArriba", 14f);
+        InvokeRepeating("CrearAleatorio", 16f, tiempoCreacion);
+        Invoke("Cancelar", 18f);
+        Invoke("Patron3", 19f);
+        //Funciï¿½n
         //Cancelar
         //Patron 3
     }
 
     private void Patron3 ()
     {
-        //Función
+        Invoke("CrearBache", 0f);
+        Invoke("CrearAutoCambiente",1f);
+        Invoke("MuroAbajo", 2.5f);
+        Invoke("MuroArriba", 4.5f);
+        Invoke("CrearAutoCambiente",9f);
+        Invoke("CrearBache", 12f);
+        Invoke("MuroArriba", 15f);
+        Invoke("CrearBache", 16f);
+         Invoke("MuroExtremo", 19f);
+
+        Invoke("Cancelar", 20f);
+        Invoke("Patron1", 21f);
+        
+        //Funciï¿½n
         //Cancelar
         //Dejar espacio hasta el final
     }
@@ -93,4 +132,6 @@ public class AddObstacles : MonoBehaviour
         GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[0], 0), Quaternion.identity);
         GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[2], 0), Quaternion.identity);
     }
+
+   
 }
