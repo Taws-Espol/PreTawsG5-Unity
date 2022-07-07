@@ -4,15 +4,28 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+    [SerializeField] private AudioClip npcVoice;
+    [SerializeField] private AudioClip playerVoice;
+    [SerializeField] private float typingTime;
+    [SerializeField] private int charsToPlaySound;
+    private bool isPlayerTalking;
+
     [SerializeField] private GameObject dialogueMark;
-    [SerializeField] private GameObject dialoguePanel;
+    [SerializeField] private GameObject dialoguePanel;//The panel that contains the dialogue text
     [SerializeField] private TMP_Text dialogueText;
-    [SerializeField] private string[] dialogueLines;
+    [SerializeField] private string[] dialogueLines;//The lines of dialogue that will be displayed
 
     private bool isPlayerInRange;
+    private AudioSource audioSource;
     private bool didDialogueStart;
     private int lineIndex;
-    private float typingTime=0.05f;
+    
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = npcVoice;
+    }
     void Update()
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space)){
@@ -49,10 +62,24 @@ public class Dialogue : MonoBehaviour
             Time.timeScale = 1f;
         }
     }
+
+    private void SelectAudioClip(){
+        //The string start with an especific text to determine the audio clip to play
+        audioSource.clip = dialogueLines[lineIndex].StartsWith("Tú: ") ? playerVoice : npcVoice;
+    }
+
     private IEnumerator ShowLine(){
+        SelectAudioClip();
         dialogueText.text = string.Empty;
+        int charIndex = 0;
         foreach(char letter in dialogueLines[lineIndex]){
             dialogueText.text += letter;
+
+            if(charIndex % charsToPlaySound == 0){//Play the sound every x characters
+                audioSource.Play();
+            }
+            
+            charIndex++;
             yield return new WaitForSecondsRealtime(typingTime);
         }
 

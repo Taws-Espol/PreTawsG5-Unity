@@ -2143,7 +2143,7 @@ PrefabInstance:
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: "NI\xF1o: Es mi primer d\xEDa en PPL, me pregunto si ser\xE1 f\xE1cil"
+      value: "Ni\xF1o: Es mi primer d\xEDa en PPL, me pregunto si ser\xE1 f\xE1cil"
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
@@ -2298,6 +2298,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
+      propertyPath: typingTime
+      value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 246728927}
@@ -2306,6 +2311,11 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 2130148611}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: charsToPlaySound
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.size
@@ -2319,7 +2329,7 @@ PrefabInstance:
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: 'Yo: Que?'
+      value: "T\xFA: Que?"
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
