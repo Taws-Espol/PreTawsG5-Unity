@@ -20,7 +20,7 @@ public class Dialogue : MonoBehaviour
     private bool didDialogueStart;
     private int lineIndex;
     
-
+    private bool isPaused=false;
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -28,7 +28,10 @@ public class Dialogue : MonoBehaviour
     }
     void Update()
     {
-        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space)){
+        if (Input.GetKeyDown(KeyCode.Escape)){
+            PauseDialogue();
+        }
+        if (isPlayerInRange && Input.GetKeyDown(KeyCode.Space) && !isPaused){
             if(!didDialogueStart){
                  StartDialogue();
             }
@@ -63,6 +66,11 @@ public class Dialogue : MonoBehaviour
         }
     }
 
+    private void PauseDialogue(){
+        isPaused = !isPaused;
+        //StopAllCoroutines();
+    }
+
     private void SelectAudioClip(){
         //The string start with an especific text to determine the audio clip to play
         audioSource.clip = dialogueLines[lineIndex].StartsWith("Tú: ") ? playerVoice : npcVoice;
@@ -80,7 +88,12 @@ public class Dialogue : MonoBehaviour
             }
             
             charIndex++;
-            yield return new WaitForSecondsRealtime(typingTime);
+            
+            if(!isPaused){
+                yield return new WaitForSecondsRealtime(typingTime);
+            }
+            else yield return new WaitForSeconds(typingTime);
+            
         }
 
     }
