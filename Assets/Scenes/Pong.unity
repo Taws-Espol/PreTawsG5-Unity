@@ -1478,7 +1478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1: 0
-  speed: 200
+  speed: 600
   rb: {fileID: 1322733174}
   startPos: {x: 0, y: 0}
 --- !u!1 &1481319134
@@ -1853,6 +1853,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player1: 1
-  speed: 200
+  speed: 600
   rb: {fileID: 1644900121}
   startPos: {x: 0, y: 0}
