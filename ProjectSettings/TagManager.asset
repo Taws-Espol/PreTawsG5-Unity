@@ -9,6 +9,7 @@ TagManager:
   - Calle
   - Coin
   - Audio
+  - Finish2
   layers:
   - Default
   - TransparentFX
