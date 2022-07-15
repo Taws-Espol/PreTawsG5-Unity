@@ -13,8 +13,14 @@ public class Ball : MonoBehaviour
 
     [SerializeField] private TMP_Text goal1;
     [SerializeField] private TMP_Text goal2;
+    public GameObject player1;
+    public GameObject player2;
     int score1 = 0;
     int score2 = 0;
+
+    public int maxScore = 5;
+
+    public bool IAGame;
     void Start(){
         transform.position = startPos;
         audioSource = GetComponent<AudioSource>();
@@ -29,9 +35,28 @@ public class Ball : MonoBehaviour
         rb.velocity = new Vector2(x, y) * speed*Time.deltaTime;
     }
     public void Reset(){
+        if(!IAGame){
+            player2.GetComponent<Players>().Reset();   
+        }
+        player1.GetComponent<Players>().Reset();
         rb.velocity = Vector2.zero;
         transform.position = startPos;
         Launch();
+        
+    }
+
+    public void CheckVictory(){
+        if(score1 >= maxScore){
+            goal1.text = "Win!";
+            goal2.text = "Lose!";
+            Time.timeScale = 0;
+        }
+        else if(score2 >= maxScore){
+            goal1.text = "Lose!";
+            goal2.text = "Win!";
+            Time.timeScale = 0;
+        }
+        
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -41,16 +66,18 @@ public class Ball : MonoBehaviour
             audioSource.Play();
         }
         if (other.gameObject.CompareTag("Finish")){
+            if (other.gameObject.name == "Goal1"){
+                score1++;
+                goal1.text = score1.ToString();
+            }
+            else{
+                score2++;
+                goal2.text = score2.ToString();
+            }
             audioSource.clip = ballSounds[1];
             audioSource.Play();
-            score1++;
-            goal1.text = score1.ToString();
-        }
-        if (other.gameObject.CompareTag("Finish2")){
-            audioSource.clip = ballSounds[1];
-            audioSource.Play();
-            score2++;
-            goal2.text = score2.ToString();
+            Reset();
+            CheckVictory();
         }
     }
 }
