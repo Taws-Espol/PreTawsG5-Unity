@@ -5,6 +5,7 @@ using UnityEngine;
 public class CambiarPosicion : MonoBehaviour
 {
     private float[] posiciones;
+    [SerializeField] private AnimationCurve curva;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +35,7 @@ public class CambiarPosicion : MonoBehaviour
         
         while(timeElepsed< lerpduration)
         {
-            transform.position = Vector3.Lerp(transform.position,nextPosition,timeElepsed/lerpduration);
+            transform.position = Vector3.Lerp(transform.position,nextPosition,curva.Evaluate(timeElepsed/lerpduration));
             timeElepsed += Time.deltaTime;
             yield return null;
         }
