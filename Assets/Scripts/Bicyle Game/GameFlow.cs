@@ -29,7 +29,6 @@ public class GameFlow : MonoBehaviour
     void Update()
     {
         velocidadActual = Mathf.Max(velocidadActual, Time.timeScale);
-        Debug.Log(Time.timeScale);
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             gameRunning = !gameRunning;

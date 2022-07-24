@@ -11,20 +11,25 @@ public class Players : MonoBehaviour
     private float move;
     public Vector2 startPos;
 
-    void Start(){
+    void Start()
+    {
         startPos = transform.position;
     }
 
-    void Update(){
-        if(player1){
+    void Update()
+    {
+        if (player1)
+        {
             move = Input.GetAxis("Vertical1");
         }
-        else{
+        else
+        {
             move = Input.GetAxis("Vertical2");
         }
         rb.velocity = new Vector2(0, move * speed * Time.deltaTime);
     }
-    public void Reset(){
+    public void Reset()
+    {
         rb.velocity = Vector2.zero;
         transform.position = startPos;
     }
