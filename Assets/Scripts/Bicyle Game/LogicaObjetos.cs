@@ -5,23 +5,52 @@ using UnityEngine;
 public class LogicaObjetos : MonoBehaviour
 {
     public float velocidad;
-    // Start is called before the first frame update
+    float[] posiciones = new float[3];
+    public float posX = 12;
     void Start()
     {
+        if (gameObject.tag != "Obstacle")
+            {
+                posiciones[0] = 2.3f;
+                posiciones[1] = -0.5f;
+                posiciones[2] = -3.3f;
+                definePosition();
+            }
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position += transform.right * velocidad * Time.deltaTime;
+        if (transform.position.x < -15){
+            //If it is a Obstacle then destroy it
+            if (gameObject.tag == "Obstacle")
+            {
+                Destroy(gameObject);
+            }
+            OnBecameInvisible();
+        }
     }
 
     private void OnBecameInvisible()
     {
-        if (transform.position.x < -8)
-        {
-            Destroy(gameObject);
+        definePosition();
+        gameObject.SetActive(false);
+        //Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision){
+        if (collision.collider.CompareTag("Player")){
+            //If the object is not a obstacle, try OnBecameInvisible()
+            if (!gameObject.CompareTag("Obstacle")){
+                OnBecameInvisible();
+            }
+            
         }
+    }
+    public void definePosition(){
+        int idx = Random.Range(0, 2);
+        Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
+        transform.position = spawnPosition;
     }
 }

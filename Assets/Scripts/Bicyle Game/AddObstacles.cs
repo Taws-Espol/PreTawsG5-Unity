@@ -9,9 +9,8 @@ public class AddObstacles : MonoBehaviour
     public float tiempoCreacion = 2f;
     private float[] posiciones;
     private float posX = 12f;
-    // Start is called before the first frame update
-    void Start()
-    {
+
+    void Start(){
         posiciones = new float[3];
         posiciones[0] = 2.7f;
         posiciones[1] = 0f;
@@ -21,46 +20,34 @@ public class AddObstacles : MonoBehaviour
         Invoke("Patron2", 16f);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void Cancelar()
-    {
+    private void Cancelar(){
         CancelInvoke("CrearAleatorio");
     }
 
-    private void Creando()
-    {
+    private void Creando(){
         InvokeRepeating("CrearAleatorio", tiempoCreacion, tiempoCreacion);
     }
 
-    private void CrearAleatorio()
-    {
+    private void CrearAleatorio(){
         int idx = Random.Range(0, 3);
         int idxObjeto = Random.Range(0, 1);
         Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
         GameObject obstaculo = Instantiate(obstaculos[idxObjeto], spawnPosition, Quaternion.identity);
     }
 
-        private void CrearBache()
-    {
+        private void CrearBache(){
         int idx = Random.Range(0, 3);
         Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
         GameObject obstaculo = Instantiate(obstaculos[3], spawnPosition, Quaternion.identity);
     }
-        private void CrearAutoCambiente()
-    {
+        private void CrearAutoCambiente(){
        int idx = Random.Range(0, 3);
         Vector3 spawnPosition = new Vector3(posX, posiciones[idx], 0);
         GameObject obstaculo = Instantiate(obstaculos[2], spawnPosition, Quaternion.identity);
     
     }
 
-    private void Patron1()
-    {
+    private void Patron1(){
         Invoke("MuroArriba", 0f);
         Invoke("MuroAbajo", 2.5f);
         Invoke("MuroArriba", 5f);
@@ -74,8 +61,7 @@ public class AddObstacles : MonoBehaviour
         //Patron 2
     }
 
-    private void Patron2 ()
-    {
+    private void Patron2 (){
         Invoke("CrearBache", 0f);
         Invoke("MuroExtremo", 1f);
         Invoke("CrearAleatorio",2.5f);
@@ -92,8 +78,7 @@ public class AddObstacles : MonoBehaviour
         //Patron 3
     }
 
-    private void Patron3 ()
-    {
+    private void Patron3 (){
         Invoke("CrearBache", 0f);
         Invoke("CrearAutoCambiente",1f);
         Invoke("MuroAbajo", 2.5f);
@@ -112,26 +97,21 @@ public class AddObstacles : MonoBehaviour
         //Dejar espacio hasta el final
     }
 
-    private void MuroArriba ()
-    {
+    private void MuroArriba (){
         int idxTmp = Random.Range(0, 2);
         GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[0], 0), Quaternion.identity);
         GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[1], 0), Quaternion.identity);
     }
 
-    private void MuroAbajo()
-    {
+    private void MuroAbajo(){
         int idxTmp = Random.Range(0, 2);
         GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[1], 0), Quaternion.identity);
         GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[2], 0), Quaternion.identity);
     }
 
-    private void MuroExtremo()
-    {
+    private void MuroExtremo(){
         int idxTmp = Random.Range(0, 2);
         GameObject obstaculo1 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[0], 0), Quaternion.identity);
         GameObject obstaculo2 = Instantiate(obstaculos[idxTmp], new Vector3(posX, posiciones[2], 0), Quaternion.identity);
     }
-
-   
 }

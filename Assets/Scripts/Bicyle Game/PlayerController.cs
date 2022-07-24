@@ -20,6 +20,11 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer sprite;
     public bool invincible = false;
 
+    [SerializeField] private AudioClip CoinSound;
+    [SerializeField] private AudioClip RaySound;
+    private AudioSource audioSource;
+    [SerializeField] private GameObject Audio;
+
     [Header("Barra de Vida")]
     [SerializeField] private GameObject barraVida;
     [SerializeField] private Sprite[] vidas;
@@ -32,6 +37,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        audioSource = Audio.GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         polvo = transform.GetChild(0).gameObject;
         sprite = GetComponent<SpriteRenderer>();
@@ -78,6 +84,7 @@ public class PlayerController : MonoBehaviour
 
         if (other.collider.CompareTag("Ray"))
         {
+            audioSource.PlayOneShot(RaySound);
             moveSpeed = 18;
             sprite.color = Color.cyan;
             Invoke("NormalState", 3f);
@@ -85,6 +92,7 @@ public class PlayerController : MonoBehaviour
 
         if (other.collider.CompareTag("Coin"))
         {
+            audioSource.PlayOneShot(CoinSound);
             ActualizarConteoMoneda(++conteoMonedas);
         }
     }
