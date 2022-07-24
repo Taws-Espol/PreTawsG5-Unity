@@ -5,13 +5,12 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class GameFlow : MonoBehaviour
+public class GameFlowInfinity : MonoBehaviour
 {
-    [Header("Barra Progreso")]
+    [Header("Progreso")]
+    public GameObject rider;
     private bool gameRunning;
-    public Image barraProgreso;
-    private float progresoActual = 0;
-    private float segundosTotales = 62;
+
 
     private float velocidadActual;
 
@@ -21,7 +20,6 @@ public class GameFlow : MonoBehaviour
     [Header("Panel Final")]
     public GameObject  panel_Fin_del_juego;
     public TextMeshProUGUI txt_Puntaje;
-    public GameObject meta;
     
 
     
@@ -29,7 +27,6 @@ public class GameFlow : MonoBehaviour
     {
         panel_Fin_del_juego.SetActive(false);
 
-        barraProgreso.fillAmount = 0;
         gameRunning = true;
         sonido = GetComponent<AudioSource>();
         velocidadActual = 1;
@@ -40,6 +37,7 @@ public class GameFlow : MonoBehaviour
     void Update()
     {
         velocidadActual = Mathf.Max(velocidadActual, Time.timeScale);
+        Debug.Log(Time.timeScale);
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             gameRunning = !gameRunning;
@@ -60,7 +58,8 @@ public class GameFlow : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-        if(meta.GetComponent<LogicaMeta>().cruce_de_meta){ 
+        
+        if(rider.GetComponent<PlayerController>().salud == 0){ 
             //Debug.Log("cruce_de_meta =true");
 
             gameRunning = false;
@@ -80,11 +79,7 @@ public class GameFlow : MonoBehaviour
 
         }
         
-    }
-    private void FixedUpdate()
-    {
-        progresoActual += Time.fixedDeltaTime/ segundosTotales;
-        barraProgreso.fillAmount = progresoActual;
+        
     }
 
 

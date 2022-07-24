@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour
     [Header("Barra de Vida")]
     [SerializeField] private GameObject barraVida;
     [SerializeField] private Sprite[] vidas;
-    [SerializeField] private int salud = 2;
+    [SerializeField] public int salud = 2;
 
     [Header("Items")]
     //[SerializeField] private int conteoRayos = 0;

@@ -9,6 +9,8 @@ TagManager:
   - Calle
   - Coin
   - Audio
+  - Ball
+  - DeadZone
   layers:
   - Default
   - TransparentFX
