@@ -7,6 +7,7 @@ public class LogicaMeta : MonoBehaviour
 {
     public GameObject progreso;
     public float velocidad;
+    public bool cruce_de_meta = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,4 +29,14 @@ public class LogicaMeta : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.CompareTag("Player"))
+        {
+            cruce_de_meta =true;
+        }
+    }
+
+    
 }
