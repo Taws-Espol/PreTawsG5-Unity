@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
@@ -19,7 +20,7 @@ public class GameFlow : MonoBehaviour
 
     [Header("Panel Final")]
     public GameObject  Panel_Fin_del_juego;
-    public GameObject Txt_Puntaje;
+    public TextMeshProUGUI Txt_Puntaje;
     public GameObject Meta;
     
 
@@ -76,7 +77,7 @@ public class GameFlow : MonoBehaviour
             Panel_Fin_del_juego.SetActive(true);
             
 
-            //Txt_Puntaje.GetComponent<Text>() = "400"+ " pts";
+            Txt_Puntaje.text = "400"+ " pts";
 
         }
         
