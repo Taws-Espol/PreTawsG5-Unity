@@ -69,7 +69,7 @@ public class Ball : MonoBehaviour
             audioSource.Play();
         }
         if (other.gameObject.CompareTag("Finish")){
-            if (other.gameObject.name == "goalLeft"){
+            if (other.gameObject.name != "GoalLeft"){
                 scoreLeft++;
                 goalLeft.text = scoreLeft.ToString();
             }
