@@ -286,12 +286,12 @@ PrefabInstance:
     - target: {fileID: 723433575973437708, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433575973437708, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576308860930, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
@@ -301,22 +301,27 @@ PrefabInstance:
     - target: {fileID: 723433576756895891, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576756895891, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576756895891, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576828265753, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_Name
       value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 723433576828265753, guid: 881ee01404bcdb84b8f76369151131ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 723433576828265754, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
@@ -1111,7 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d558cda7e61a94a8b1f5a223f35731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 350
+  speed: 360
   rb: {fileID: 939239341}
   startPos: {x: 0, y: 0}
   ballSounds:
@@ -1677,10 +1682,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4693e0eb88ad7543b7bbff5dea44943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: 0
-  speed: 600
+  playerLeft: 0
+  speed: 15
   rb: {fileID: 1322733174}
   startPos: {x: 0, y: 0}
+  move: {x: 0, y: 0, z: 0}
 --- !u!114 &1322733179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1694,7 +1700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 939239340}
-  speed: 4
+  speed: 5
 --- !u!1 &1481319134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1953,7 +1959,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644900120}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -2072,10 +2078,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4693e0eb88ad7543b7bbff5dea44943, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player1: 1
-  speed: 600
+  playerLeft: 1
+  speed: 15
   rb: {fileID: 1644900121}
   startPos: {x: 0, y: 0}
+  move: {x: 0, y: 0, z: 0}
 --- !u!1 &2095158998
 GameObject:
   m_ObjectHideFlags: 0

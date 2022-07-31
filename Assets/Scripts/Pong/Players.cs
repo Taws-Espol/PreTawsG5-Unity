@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Players : MonoBehaviour
 {
-    public bool player1;
-    public float speed = 200f;
+    public bool playerLeft;
+    public float speed = 15f;
     public Rigidbody2D rb;
 
-    private float move;
     public Vector2 startPos;
+    public Vector3 move;
 
     void Start()
     {
@@ -18,15 +18,10 @@ public class Players : MonoBehaviour
 
     void Update()
     {
-        if (player1)
-        {
-            move = Input.GetAxis("Vertical1");
-        }
-        else
-        {
-            move = Input.GetAxis("Vertical2");
-        }
-        rb.velocity = new Vector2(0, move * speed * Time.deltaTime);
+        move = playerLeft? new Vector3(0,Input.GetAxis("Vertical1"),0) : new Vector3(0,Input.GetAxis("Vertical2"),0);
+        transform.position += move * speed * Time.deltaTime;
+        float posY = Mathf.Clamp(transform.position.y, -3.25f, 3.25f);
+        transform.position = playerLeft? new Vector3(-8,posY,0): new Vector3(8,posY,0);
     }
     public void Reset()
     {
