@@ -82,6 +82,12 @@ public class Ball : MonoBehaviour
             Reset();
             if(!infiniteMode){
                 CheckVictory();
+            }else{
+                if(scoreRight>=1){
+                    goalLeft.text = scoreLeft.ToString();
+                    goalRight.text = "End";
+                    Time.timeScale = 0;
+                }
             }
         }
     }
@@ -90,20 +96,6 @@ public class Ball : MonoBehaviour
         if(infiniteMode){
             timeText += Time.deltaTime;
             timer.text = timeText.ToString("f0");
-        }
-        if(timeText >= 60f){
-            timeText = 0f;
-            Reset();
-            if(scoreLeft >= maxScore){
-                goalLeft.text = "Win!";
-                goalRight.text = "Lose!";
-                Time.timeScale = 0;
-            }
-            else if(scoreRight >= maxScore){
-                goalLeft.text = "Lose!";
-                goalRight.text = "Win!";
-                Time.timeScale = 0;
-            }
         }
     }
 }

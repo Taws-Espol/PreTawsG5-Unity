@@ -1126,7 +1126,7 @@ MonoBehaviour:
   goalRight: {fileID: 376170105}
   playerLeft: {fileID: 1644900120}
   playerRight: {fileID: 1322733173}
-  infiniteMode: 0
+  infiniteMode: 1
   timer: {fileID: 553011665}
   maxScore: 5
   IAGame: 1
@@ -1700,7 +1700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 939239340}
-  speed: 5
+  speed: 4.7
 --- !u!1 &1481319134
 GameObject:
   m_ObjectHideFlags: 0
