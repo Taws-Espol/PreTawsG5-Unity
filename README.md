@@ -1,4 +1,4 @@
-# Proyecto PreTaws PPL Adventure
+# Proyecto PreTaws PPL Adventure (HISTORIA PARA FUTURO DESARROLO)
 
 ## Descripción
 
@@ -36,7 +36,7 @@ Se han detallado las siguientes ubicaciones para PPL Adventure. Más informació
 - Avenida Espol-Garita
 - Básico
 - Plazoleta FSCH
-- Zona de Swwet&Coffee
+- Zona de Sweet&Coffee
 - Comedor "La vaca vestida de uniforme"
 - Salón de Clases
 
