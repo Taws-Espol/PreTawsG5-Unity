@@ -282,6 +282,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1616270872, guid: 40e64b3a90c7b07449a0cb9a848f079b,
+        type: 3}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueText
@@ -422,8 +443,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1.4375}
-    newSize: {x: 1, y: 1.4375}
+    oldSize: {x: 0.75, y: 1.0625}
+    newSize: {x: 0.75, y: 1.0625}
     adaptiveTilingThreshold: 0.5
     drawMode: 1
     adaptiveTiling: 0
@@ -472,12 +493,12 @@ SpriteRenderer:
   m_SortingLayerID: -44025399
   m_SortingLayer: 2
   m_SortingOrder: 2
-  m_Sprite: {fileID: 1433957201, guid: 18ed7ba499e3c574a98f3197b88c8d61, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 1616270872, guid: 40e64b3a90c7b07449a0cb9a848f079b, type: 3}
+  m_Color: {r: 1, g: 0.5518868, b: 0.5518868, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 1, y: 1.4375}
+  m_Size: {x: 0.75, y: 1.0625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1907,6 +1928,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1616270872, guid: 40e64b3a90c7b07449a0cb9a848f079b,
+        type: 3}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueText
@@ -2017,32 +2059,37 @@ PrefabInstance:
     - target: {fileID: 723433575973437708, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433575973437708, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576756895891, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576756895891, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576756895891, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 723433576828265753, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
       propertyPath: m_Name
       value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 723433576828265753, guid: 881ee01404bcdb84b8f76369151131ee,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 723433576828265754, guid: 881ee01404bcdb84b8f76369151131ee,
         type: 3}
@@ -2242,6 +2289,27 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.0625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1616270872, guid: 40e64b3a90c7b07449a0cb9a848f079b,
+        type: 3}
+    - target: {fileID: 3906349645512731732, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}

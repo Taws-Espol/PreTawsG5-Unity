@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Cainos.PixelArtTopDown_Basic
-{
     public class TopDownCharacterController : MonoBehaviour
     {
         public float speed=4.0f;
@@ -42,6 +40,18 @@ namespace Cainos.PixelArtTopDown_Basic
                 animator.SetInteger("Direction", 0);
             }
 
+            if (Input.GetKey(KeyCode.G))
+            {
+                SaveManager.SavePlayer(this);
+                Debug.Log("Saved");
+            }
+            if (Input.GetKey(KeyCode.C))
+            {
+                PlayerData playerData = SaveManager.LoadPlayer();
+                transform.position = new Vector3(playerData.position[0], playerData.position[1], playerData.position[2]);
+                Debug.Log("Loaded");
+            }
+
             dir.Normalize();
             animator.SetBool("IsMoving", dir.magnitude > 0);
             bool fliped = dir.x < 0;
@@ -49,4 +59,3 @@ namespace Cainos.PixelArtTopDown_Basic
             GetComponent<Rigidbody2D>().velocity = speed * dir;
         }
     }
-}
