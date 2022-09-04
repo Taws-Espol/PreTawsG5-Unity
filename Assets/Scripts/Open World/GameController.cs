@@ -36,6 +36,11 @@ public class GameController : MonoBehaviour
     private void ChangePauseState(){
         isPaused = !isPaused;
         Time.timeScale = isPaused ? 0 : 1;
+        if(isPaused) {
+            GameManager.PausarAudio();
+        } else {
+            GameManager.ReproducirAudio();
+        }
         menu.SetActive(isPaused);
     }
 
