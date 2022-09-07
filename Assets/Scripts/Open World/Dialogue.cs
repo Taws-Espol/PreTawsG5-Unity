@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Dialogue : MonoBehaviour
 {
@@ -63,6 +64,15 @@ public class Dialogue : MonoBehaviour
             dialoguePanel.SetActive(false);
             dialogueMark.SetActive(true);
             Time.timeScale = 1f;
+
+            //If the name of this objwct if PC run other scene
+            if(gameObject.name == "PC"){
+                //change the scene
+                SceneManager.LoadScene(2);
+
+
+            }
+
         }
     }
 
