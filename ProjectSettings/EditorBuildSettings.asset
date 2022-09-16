@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Arkanoid.unity
     guid: 40eb59512831ce74a8cd1fd96ad1eea8
+  - enabled: 1
+    path: Assets/Scenes/Arcade.unity
+    guid: e4919dcf7d0a1f04a90e4e22e972576d
   m_configObjects: {}

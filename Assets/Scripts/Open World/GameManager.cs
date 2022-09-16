@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public string nombrePong;
     public string bestNombrePong;
     public int bestPointsPong;
+    public int x;
+    public int y;
 
     void Awake()
     {
@@ -41,6 +43,12 @@ public class GameManager : MonoBehaviour
         public string name;
     }
 
+    [Serializable]
+    class Pos{
+        public int x;
+        public int y;
+    }
+
     public void SaveScorePong(){
         BestScorePong data = new BestScorePong();
         data.name = bestNombrePong;
@@ -62,5 +70,36 @@ public class GameManager : MonoBehaviour
             bestNombrePong = "NA";
             bestPointsPong = 0;
         }
+    }
+
+    public void SavePosicion(int x, int y){
+        Pos position = new Pos();
+        position.x = x;
+        position.y = y;
+
+        string json = JsonUtility.ToJson(position);
+        File.WriteAllText(Application.persistentDataPath + "/position.json", json);
+    }
+
+    public void setPosicion(){
+        string path = Application.persistentDataPath + "/position.json";
+
+        if(File.Exists(path)){
+            string json = File.ReadAllText(path);
+            Pos position = JsonUtility.FromJson<Pos>(json);
+            x = position.x;
+            y = position.y;
+        }
+        else{
+            x = 0;
+            y = 0;
+        }
+
+        GameObject.Find("Player").transform.position = new Vector3(x, y, 0);
+    }
+
+    private void Start()
+    {
+        ReproducirAudio();
     }
 }

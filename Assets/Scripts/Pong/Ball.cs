@@ -30,11 +30,11 @@ public class Ball : MonoBehaviour
 
     public bool IAGame;
     void Start(){
+        Launch();
         transform.position = startPos;
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = ballSounds[0];
         
-        Launch();
     }
 
     public void Launch(){
