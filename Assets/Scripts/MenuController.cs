@@ -10,5 +10,9 @@ public class MenuController : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.LoadScene(index);
     }
 
+    public void Exit(){
+        Application.Quit();
+    }
+
 
 }

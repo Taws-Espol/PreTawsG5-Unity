@@ -11,6 +11,9 @@ using UnityEngine;
         private void Start()
         {
             animator = GetComponent<Animator>();
+            //GameManager.instance.SavePosicion(0,0);
+            GameManager.instance.setPosicion();
+            
         }
 
 
