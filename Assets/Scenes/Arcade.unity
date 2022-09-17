@@ -258,13 +258,23 @@ PrefabInstance:
       objectReference: {fileID: 2130148611}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: 'Juana: Hola'
+      value: Esperaba un juego mas desafiante
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "T\xFA: Que hay?"
+      value: Pero supongo que no puedo exigir mas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: "T\xFA: Yo tambien tengo que dormir :v"
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731734, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
@@ -1693,13 +1703,23 @@ PrefabInstance:
       objectReference: {fileID: 2130148611}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: 'Juana: Hola'
+      value: Las maquinas parcen no funcionar
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "T\xFA: Que hay?"
+      value: Solo pude usar la que tengo al lado
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731734, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
@@ -4074,12 +4094,12 @@ PrefabInstance:
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: 'Juana: Hola'
+      value: "Escuch\xE9 historias de gente que entra a este bosque"
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "T\xFA: Que hay?"
+      value: "Puedes ver un mont\xF3n de animales!"
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731734, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
@@ -10978,13 +10998,23 @@ PrefabInstance:
       objectReference: {fileID: 2130148611}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: 'Juana: Hola'
+      value: Aunque uno ya sea profesor
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "T\xFA: Que hay?"
+      value: Es bastante gratificante el salir de clases
+      objectReference: {fileID: 0}
+    - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[2]
+      value: ' y jugar un poco'
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731734, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
@@ -11830,12 +11860,12 @@ PrefabInstance:
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: "Ni\xF1o: Es mi primer d\xEDa en PPL, me pregunto si ser\xE1 f\xE1cil"
+      value: Deseas algo de comer?
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: '*Se queda'
+      value: Solo recuerda no hacerlo mientras juegas en las maquinas
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731734, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
@@ -12306,17 +12336,17 @@ PrefabInstance:
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[0]
-      value: 'NPC: Dialogo'
+      value: Sabes que si precionas esc
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[1]
-      value: "T\xFA: Que?"
+      value: Puedes pausar el juego y salir?
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731733, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
       propertyPath: dialogueLines.Array.data[2]
-      value: 'NPC: Dije Dialogo'
+      value: "T\xFA: Por lo dices reci\xE9n ahora?"
       objectReference: {fileID: 0}
     - target: {fileID: 3906349645512731734, guid: 405f60dab0a2fb644bf2d55eec06a3c8,
         type: 3}
