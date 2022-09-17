@@ -1,5 +1,7 @@
 # Proyecto PreTaws PPL Adventure (HISTORIA PARA FUTURO DESARROLO)
 
+Juego alojado en [Itch.io](https://elpitagoras.itch.io/ppl-adventure)
+
 ## Descripción
 
 PPL Adventure es un juego de aventura y arcade ambientado en el campus e inspirado en los obstáculos y facilidades de los estudiantes novatos del campus. Su estilo de juego está enfocado principalmente en los eventos arcade con un componente de historia en segundo plano.

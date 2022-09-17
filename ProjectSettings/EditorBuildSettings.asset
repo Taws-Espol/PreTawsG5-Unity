@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Bicycle Game/Bicycle Level.unity
-    guid: bc9a9ce9e50a3bd4b9ba57d2679ee4da
-  - enabled: 1
     path: Assets/Scenes/Basico.unity
     guid: be49697df3eb73f46a5015dadc470347
+  - enabled: 1
+    path: Assets/Scenes/Bicycle Game/Bicycle Level.unity
+    guid: bc9a9ce9e50a3bd4b9ba57d2679ee4da
   - enabled: 1
     path: Assets/Scenes/Main-Menu-Example.unity
     guid: 590f605fed1463043828134c464ad21f
