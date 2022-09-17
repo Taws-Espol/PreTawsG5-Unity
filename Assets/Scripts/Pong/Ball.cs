@@ -30,6 +30,7 @@ public class Ball : MonoBehaviour
 
     public bool IAGame;
     void Start(){
+        Time.timeScale = 1;
         Launch();
         transform.position = startPos;
         audioSource = GetComponent<AudioSource>();
@@ -41,7 +42,6 @@ public class Ball : MonoBehaviour
         panel.SetActive(false);
         float x = Random.Range(0, 2) == 0 ? -1 : 1;
         float y = Random.Range(0, 2) == 0 ? -1 : 1;
-
         rb.velocity = new Vector2(x, y) * speed*Time.deltaTime*2;
     }
     public void Reset(){
