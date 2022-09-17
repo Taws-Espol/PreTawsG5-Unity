@@ -37,6 +37,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1;
         audioSource = Audio.GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         polvo = transform.GetChild(0).gameObject;
